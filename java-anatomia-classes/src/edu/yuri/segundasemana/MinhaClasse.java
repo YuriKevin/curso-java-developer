@@ -1,4 +1,4 @@
-package edu.yuri.primeirasemana;
+package edu.yuri.segundasemana;
 
 public class MinhaClasse {
     public static void main(String[] args) {
