@@ -4,7 +4,7 @@ import java.util.Queue;
 public class Main {
     public static void main(String[] args) throws Exception {
         Queue<Carro> filaCarros = new LinkedList<>();
-
+        
         filaCarros.add(new Carro("ford"));
         filaCarros.add(new Carro("chevrolet"));
         filaCarros.add(new Carro("fiat"));
@@ -23,5 +23,6 @@ public class Main {
 
         System.out.println(filaCarros.isEmpty());
         System.out.println(filaCarros.size());
+        
     }
 }
