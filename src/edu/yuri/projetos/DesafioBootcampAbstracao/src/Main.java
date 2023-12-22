@@ -2,20 +2,11 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Curso curso1 = new Curso();
-        curso1.setTitulo("curso java");
-        curso1.setDescricao("descrição curso java");
-        curso1.setCargaHoraria(8);
+        Curso curso1 = new Curso("curso java", "descrição curso java", 76);
 
-        Curso curso2 = new Curso();
-        curso2.setTitulo("curso js");
-        curso2.setDescricao("descrição curso js");
-        curso2.setCargaHoraria(4);
+        Curso curso2 = new Curso("curso js", "descrição curso js", 1);
 
-        Mentoria mentoria = new Mentoria();
-        mentoria.setTitulo("mentoria de java");
-        mentoria.setDescricao("descrição mentoria java");
-        mentoria.setData(LocalDate.now());
+        Mentoria mentoria = new Mentoria("mentoria de java", "descrição mentoria java", LocalDate.now());
 
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Bootcamp Java Developer");
@@ -30,8 +21,8 @@ public class Main {
         dev.progredir();
         dev.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos Camila:" + dev.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Camila:" + dev.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos:" + dev.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos:" + dev.getConteudosConcluidos());
         System.out.println("XP:" + dev.calcularTotalXp());
 
         System.out.println("-------");
