@@ -1,8 +1,3 @@
-import br.com.dio.desafio.dominio.Bootcamp;
-import br.com.dio.desafio.dominio.Curso;
-import br.com.dio.desafio.dominio.Dev;
-import br.com.dio.desafio.dominio.Mentoria;
-
 import java.time.LocalDate;
 
 public class Main {
@@ -48,8 +43,8 @@ public class Main {
         dev2.progredir();
         dev2.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos João:" + dev2.getConteudosInscritos());
-        System.out.println("Conteúdos Concluidos João:" + dev2.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos:" + dev2.getConteudosInscritos());
+        System.out.println("Conteúdos Concluidos:" + dev2.getConteudosConcluidos());
         System.out.println("XP:" + dev2.calcularTotalXp());
 
     }

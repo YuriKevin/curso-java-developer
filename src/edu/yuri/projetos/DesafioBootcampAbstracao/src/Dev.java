@@ -1,4 +1,4 @@
-package br.com.dio.desafio.dominio;
+
 
 import java.util.*;
 
@@ -35,10 +35,6 @@ public class Dev {
         }
         return soma;
 
-        /*return this.conteudosConcluidos
-                .stream()
-                .mapToDouble(Conteudo::calcularXp)
-                .sum();*/
     }
 
 
