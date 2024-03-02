@@ -1,4 +1,4 @@
-# curso-java-developer
+# Curso: Formação Java Developer
 Todo o código desenvolvido no curso "Formação Java Developer" (Digital Innovation One - DIO).  
 Carga horária total de 76 horas.
 
