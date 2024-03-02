@@ -1,7 +1,6 @@
 # curso-java-developer
 Todo o código desenvolvido no curso "Formação Java Developer".
-
-## Carga horária total de 76 horas.
+Carga horária total de 76 horas.
 
 ## Conteúdos abordados
 - Ambiente de desenvolvimento;
